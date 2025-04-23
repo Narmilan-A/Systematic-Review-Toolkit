@@ -20,7 +20,6 @@ Export references in `.bib` or `.ris` format.
 ### 5. Perform PRISMA-Based Screening
 
 #### PRISMA Flow Diagram
-![PRISMA Flow Diagram](https://prisma-statement.org//PRISMA-Statement/Flow-Diagram)
 
 | Stage                      | Number of Articles |
 |---------------------------|--------------------|
