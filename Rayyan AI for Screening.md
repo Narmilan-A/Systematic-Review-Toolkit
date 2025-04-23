@@ -160,6 +160,5 @@ After screening ~50 articles:
 
 ## 🎥 Resources
 
-- [Official Video Walkthrough](https://www.youtube.com/watch?v=Kc29i3vTvsM)
-- [Rayyan Help Center](https://www.rayyan.ai/help)
+- [Official Video Walkthrough](https://www.youtube.com/watch?v=ksPPNIvN2Tg&t=4536s&ab_channel=CynthiaLib)
 - [PRISMA Guidelines](http://www.prisma-statement.org/)
