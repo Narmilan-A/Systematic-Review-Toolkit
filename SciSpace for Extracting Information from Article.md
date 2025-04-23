@@ -126,8 +126,4 @@ You can organize AI answers in a table like this:
 ---
 
 ## 🎥 Learning Resources
-
-- [SciSpace Official Guide](https://typeset.io/product/ask-pdf)
-- [YouTube Demo](https://www.youtube.com/@typeset)
-- [Tips for Researchers](https://typeset.io/blog)
-
+- [YouTube Demo](https://www.youtube.com/watch?v=gk7O2o_6CY4&ab_channel=Howtodoeverything%3F)
