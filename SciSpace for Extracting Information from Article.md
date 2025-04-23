@@ -19,27 +19,76 @@
 
 ---
 
-## 🧑‍🏫 Beginner-Friendly Workflow
+## 🔧 Before You Start
 
-### Step 1: Sign Up
-- Go to [https://typeset.io](https://typeset.io)
-- Create a free account with email or Google
+You’ll need:
+- PDF files of research papers (open access or legally downloaded)
+- A free account at [https://typeset.io](https://typeset.io)
 
-### Step 2: Upload a PDF
-- Click "Ask PDF"
-- Upload a research article in PDF format
-- Wait for parsing (~30 seconds)
+---
 
-### Step 3: Ask Questions Like:
-- "What population was studied?"
-- "What methods were used?"
-- "What’s the sample size?"
-- "What was the outcome measure?"
+## 🚀 Step-by-Step Guide to Using SciSpace Ask PDF
 
-### Step 4: Extract & Document
-- Highlight the relevant answers
-- Copy-paste into Excel, Google Sheets, or Zotero notes
-- Add labels: `Method`, `Results`, `Study Site`, `Statistical Test`, etc.
+### 🟢 Step 1: Sign Up and Log In
+1. Go to [https://typeset.io](https://typeset.io)
+2. Click **Sign Up**.
+3. Create an account using Google, ORCID, or email.
+4. Log in and go to the **Ask PDF** page.
+
+---
+
+### 🟢 Step 2: Upload a PDF
+1. Click **Upload PDF**
+2. Drag-and-drop or select a PDF from your computer.
+3. Wait for SciSpace to process it (usually under 1 minute).
+4. Once loaded, you’ll see the document viewer and chat input on the same screen.
+
+---
+
+### 🟢 Step 3: Ask Your Questions
+Use natural language to ask:
+- “What is the sample size?”
+- “What methodology did the authors use?”
+- “What are the main findings?”
+- “Was this study randomized?”
+- “What population was studied?”
+
+The AI will:
+- Highlight the answer in the document
+- Show the relevant paragraph
+- Provide a short summary or answer
+
+---
+
+### 🟢 Step 4: Review and Extract Answers
+1. Read the highlighted answer in context.
+2. Copy important parts into a spreadsheet or database.
+3. You can also manually highlight and save important sentences.
+
+Example table format:
+
+| Article | Sample Size | Methodology | Results | Outcome |
+|---------|-------------|-------------|---------|---------|
+| Smith et al. | 200 | RCT | Reduced blood pressure | Effective |
+
+---
+
+### 🟢 Step 5: Repeat for Other PDFs
+1. Go back to the dashboard.
+2. Upload your next PDF.
+3. Continue asking and extracting information from each article.
+
+---
+
+## 🔍 Bonus Features
+
+| Feature | Description |
+|--------|-------------|
+| **Ask Follow-Up Questions** | You can have a conversation with the PDF, building on prior questions. |
+| **Section Navigator** | Quickly jump to Abstract, Methods, Results, or References. |
+| **Citation Info** | Get author names, journal, year, DOI in one click. |
+| **Related Papers** | Get suggestions for similar papers. |
+| **Browser Extensions** | Coming soon (SciSpace Chrome plugin). |
 
 ---
 
