@@ -1,19 +1,49 @@
-# Systematic Review Toolkit
+# Systematic Review Methodology using AI Tools
 
-This repository provides tools and documentation for conducting a systematic literature review using a combination of open-access AI tools and best practices.
+This repository documents a reproducible, AI-assisted systematic review workflow using the following tools:
 
-## Contents
+- 🧠 **Rayyan AI**: For duplicate removal, filtering, random sampling, and abstract/title screening
+- 📄 **Paperpile** (or similar): For downloading and organizing full-text PDFs via university access, integrations, and online sources
+- 🤖 **SciSpace Copilot**: For full-text screening, keyword searching, AI-based extraction, and PDF parsing
 
-- 📄 `Systematic Review.md` — Overview of the systematic review process with a PRISMA-based workflow.
-- 🤖 `Rayyan AI for Screening.md` — Guide for using Rayyan AI to screen articles efficiently.
-- 📘 `SciSpace for Extracting Information from Article.md` — Instructions on extracting structured information from PDFs using SciSpace-like tools.
+--- 
 
-## Tools & Technologies
+## Tools Overview
 
-- [Rayyan AI](https://www.rayyan.ai/)
-- [SciSpace](https://typeset.io/)
-- PRISMA 2020 Checklist
+- **Rayyan AI**: [https://rayyan.ai](https://rayyan.ai)
+- **Paperpile**: [https://paperpile.com](https://paperpile.com)
+- **SciSpace Copilot**: [https://typeset.io](https://typeset.io)
 
-## Author
+---
 
-- Narmilan Amarasingam
+## Workflow Diagram
+
+```mermaid
+graph TD
+    A[Search Databases] --> B[Import into Rayyan]
+    B --> C[Remove Duplicates]
+    C --> D[Apply Filters & Random Sampling]
+    D --> E[Title & Abstract Screening]
+    E --> F[Export Accepted Studies]
+    F --> G[Import into Paperpile]
+    G --> H[Download Full-Text PDFs]
+    H --> I[Upload to SciSpace Copilot]
+    I --> J[Second-Round Screening & Extraction]
+```
+
+--- 
+
+## Structure
+
+```plaintext
+systematic-review-methodology-ai/
+├── README.md
+├── PRISMA-Checklist.md
+├── Rayyan-AI.md
+├── Paperpile-Workflow.md
+├── SciSpace-Extraction.md
+└── Data/
+    ├── inclusion_criteria.txt
+    ├── exclusion_criteria.txt
+    └── prisma_diagram.png
+```
