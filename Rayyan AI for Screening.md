@@ -147,16 +147,13 @@ After screening ~50 articles:
 
 ## 🔍 Additional Features
 
+-**Random Sampling**: Useful for randomly sharethe articles to reviewers fro screening.
 - **Keyword Search**: Find specific articles quickly.
 - **Highlight Terms**: Add inclusion/exclusion keywords to auto-highlight in abstracts.
 - **Deduplication**: Automatically merges duplicates during import.
 - **Analytics Dashboard**: Displays stats on screening progress and reviewer agreement.
 
 ---
-
-
-
-
 
 ## 🎥 Resources
 
