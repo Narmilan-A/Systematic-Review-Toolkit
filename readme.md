@@ -57,7 +57,7 @@ Systematic-Review-Toolkit/
 
 #### Step 1. Conduct a Literature Search
 Use **Scopus Search & Analysis** to perform structured Boolean queries, export references, and generate descriptive statistics.  
-👉 [Guide → Scopus-Search-and-Analysis.md](./Scopus-Search-and-Analysis.md)
+👉 [Guide → Step1 - Scopus-Search-and-Analysis.md](./Scopus-Search-and-Analysis.md)
 
 #### Step 2. Screen Titles & Abstracts
 Import exported records into **Rayyan AI** to remove duplicates, tag inclusion/exclusion criteria, and resolve reviewer conflicts.  
