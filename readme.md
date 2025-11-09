@@ -43,13 +43,6 @@ Each tool contributes a unique stage in the systematic review process:
 
 ```plaintext
 Systematic-Review-Toolkit/
-├── data/
-│   ├── exports/               # Raw Scopus/WoS exports (CSV, RIS, BibTeX)
-│   ├── scopus_analysis/       # Summaries and charts from scopus_summary_analysis.py
-│   ├── vosviewer/             # Network and map exports from VOSviewer
-│   └── thesaurus/             # Custom thesaurus and stoplists for term cleaning
-├── tools/
-│   └── scopus_summary_analysis.py  # Python script for Scopus data summarisation
 ├── Scopus-Search-and-Analysis.md
 ├── Rayyan-AI.md
 ├── Paperpile-Workflow.md
