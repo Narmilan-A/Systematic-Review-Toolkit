@@ -51,7 +51,7 @@ Scopus has a native analysis dashboard:
 
 Use the provided helper script to **replicate Scopus summaries locally** and create figures/tables for your manuscript.
 
-### A. File layout
+### File layout
 ```
 Systematic-Review-Toolkit/
 ├── data/
@@ -61,26 +61,8 @@ Systematic-Review-Toolkit/
 │   │       ├── results_YYYYMMDD.ris
 │   │       └── results_YYYYMMDD.bib
 │   └── scopus_analysis/        # ← outputs saved here
-├── tools/
-│   └── scopus_summary_analysis.py
 └── Scopus-Search-and-Analysis.md
 ```
-
-### B. Run the analysis
-1. Place one or more **Scopus CSV** files under `data/exports/scopus/`.
-2. Run the script (in a Python 3 environment with `pandas` and `matplotlib`):
-   ```bash
-   python tools/scopus_summary_analysis.py        --inputs data/exports/scopus/*.csv        --outdir data/scopus_analysis
-   ```
-3. Outputs created:
-   - `summary_by_year.csv` (+ `summary_by_year.png`)
-   - `top_sources.csv` (+ `top_sources.png`)
-   - `top_authors.csv` (+ `top_authors.png`)
-   - `top_affiliations.csv` (+ `top_affiliations.png`)
-   - `top_countries.csv` (+ `top_countries.png`)  *(parsed from affiliation country when available)*
-   - `top_keywords.csv` (+ `top_keywords.png`) *(from **Author Keywords** + **Index Keywords**) *
-
-> The script is **fault‑tolerant** with varying Scopus CSV schemas; see inline comments if you need to adapt field names.
 
 ---
 
