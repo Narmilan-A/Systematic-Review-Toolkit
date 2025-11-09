@@ -1,58 +1,127 @@
-# Systematic Review Methodology
+# 🧩 Systematic Review Methodology Using AI & Bibliometric Tools
 
-This repository documents a reproducible, AI/non-AI-assisted systematic review workflow using the following tools:
-
-- 🧠 **Rayyan AI**: For duplicate removal, filtering, random sampling, and abstract/title screening
-- 📄 **Paperpile** (or similar): For downloading and organizing full-text PDFs via university access, integrations, and online sources
-- 🤖 **SciSpace Copilot**: For full-text screening, keyword searching, AI-based extraction, and PDF parsing
-
---- 
-
-## Tools Overview
-
-- **Rayyan AI**: [https://rayyan.ai](https://rayyan.ai)
-- **Paperpile**: [https://paperpile.com](https://paperpile.com)
-- **SciSpace Copilot**: [https://typeset.io](https://typeset.io)
+This repository provides a **reproducible, AI-assisted workflow** for conducting systematic reviews and bibliometric analyses.  
+It integrates automated literature screening, full-text analysis, and visualization across five complementary tools.
 
 ---
 
-## Workflow Diagram
+## 🧠 Overview of Tools
+
+| Tool | Function | Key Outputs |
+|------|-----------|--------------|
+| 🔍 **Scopus Search & Analysis** | Query literature databases, export (CSV/RIS/BibTeX), and generate local analytics | Yearly trends, top authors, affiliations, countries, and keywords |
+| 🧠 **Rayyan AI** | AI-assisted title and abstract screening with duplicate removal and conflict resolution | Cleaned and screened reference set (CSV, Excel, RIS) |
+| 📄 **Paperpile** | Reference and PDF management via university access and Google Drive integration | Organized full-text PDF library |
+| 🤖 **SciSpace Copilot** | AI-driven PDF interrogation for extracting key methods, results, and study metadata | Structured tables and text summaries |
+| 📊 **VOSviewer** | Bibliometric mapping of keywords, citations, and co-authorship networks | Topic maps, collaboration clusters, and overlay visualizations |
+
+---
+
+## ⚙️ Workflow Overview
+
+This workflow ensures transparency and reproducibility from literature search to network analysis:
 
 ```mermaid
 graph TD
-    A[Search Databases] --> B[Import into Rayyan]
-    B --> C[Remove Duplicates]
-    C --> D[Apply Filters & Random Sampling]
-    D --> E[Title & Abstract Screening]
-    E --> F[Export Accepted Studies]
-    F --> G[Import into Paperpile]
-    G --> H[Download Full-Text PDFs]
-    H --> I[Upload to SciSpace Copilot]
-    I --> J[Second-Round Screening & Extraction]
+    A[Scopus Search] --> B[Rayyan Screening]
+    B --> C[Paperpile PDF Management]
+    C --> D[SciSpace AI Extraction]
+    D --> E[VOSviewer Mapping & Network Visualization]
 ```
 
---- 
+Each tool contributes a unique stage in the systematic review process:
 
-## Structure
+1. **Scopus Search & Analysis** — Initial data gathering and descriptive analytics.  
+2. **Rayyan AI** — Title/abstract screening and inclusion filtering.  
+3. **Paperpile** — Centralized PDF management for full-text access.  
+4. **SciSpace Copilot** — Full-text understanding and result extraction.  
+5. **VOSviewer** — Advanced bibliometric visualization and research landscape mapping.
+
+---
+
+## 📂 Repository Structure
 
 ```plaintext
-systematic-review-methodology-ai/
-├── README.md
-├── PRISMA-Checklist.md
+Systematic-Review-Toolkit/
+├── data/
+│   ├── exports/               # Raw Scopus/WoS exports (CSV, RIS, BibTeX)
+│   ├── scopus_analysis/       # Summaries and charts from scopus_summary_analysis.py
+│   ├── vosviewer/             # Network and map exports from VOSviewer
+│   └── thesaurus/             # Custom thesaurus and stoplists for term cleaning
+├── tools/
+│   └── scopus_summary_analysis.py  # Python script for Scopus data summarization
+├── Scopus-Search-and-Analysis.md
 ├── Rayyan-AI.md
 ├── Paperpile-Workflow.md
 ├── SciSpace-Extraction.md
-└── Data/
-    ├── inclusion_criteria.txt
-    ├── exclusion_criteria.txt
-    └── prisma_diagram.png
+├── VOSviewer-Bibliometrics.md
+└── readme.md
 ```
+
 ---
 
-## New Module: VOSviewer Bibliometrics
+## 🚀 How to Get Started
 
-We added a fourth tool — **VOSviewer** — to generate topic maps and collaboration networks from your screened corpus. Start here: **[VOSviewer-Bibliometrics.md](./VOSviewer-Bibliometrics.md)** and copy the thesaurus/stoplist templates from the repository root:
-- `templates_vosviewer_thesaurus.txt`
-- `templates_vosviewer_stoplist.csv`
+### Step 1. Conduct a Literature Search
+Use **Scopus Search & Analysis** to perform structured Boolean queries, export references, and generate descriptive statistics.  
+👉 [Guide → Scopus-Search-and-Analysis.md](./Scopus-Search-and-Analysis.md)
 
-Recommended folder for outputs: `data/vosviewer/` (see suggested structure in the VOSviewer guide).
+### Step 2. Screen Titles & Abstracts
+Import exported records into **Rayyan AI** to remove duplicates, tag inclusion/exclusion criteria, and resolve reviewer conflicts.  
+👉 [Guide → Rayyan-AI.md](./Rayyan-AI.md)
+
+### Step 3. Manage Full-Text PDFs
+Load screened references into **Paperpile**, link with institutional access, and download full-texts to Google Drive.  
+👉 [Guide → Paperpile-Workflow.md](./Paperpile-Workflow.md)
+
+### Step 4. Extract Key Insights
+Upload full-text PDFs to **SciSpace Copilot** to ask AI-driven questions and extract tables of methodologies, results, or findings.  
+👉 [Guide → SciSpace-Extraction.md](./SciSpace-Extraction.md)
+
+### Step 5. Visualize Bibliometric Networks
+Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from Scopus/WoS exports or screened datasets.  
+👉 [Guide → VOSviewer-Bibliometrics.md](./VOSviewer-Bibliometrics.md)
+
+---
+
+## 📘 Example Applications
+
+- Meta-analysis of research trends in **polar remote sensing** or **precision agriculture**.  
+- Identification of **emerging keywords** and **collaborative clusters**.  
+- Comparison of **topic evolution** over time using overlay maps.  
+- Extraction of **methods and datasets** from full-text articles for quantitative synthesis.
+
+---
+
+## 🧩 Integration Pathway
+
+| Phase | Tool | Output Type | Next Step |
+|-------|------|--------------|------------|
+| 1. Literature Retrieval | Scopus Search & Analysis | CSV / RIS / BibTeX | Import to Rayyan |
+| 2. Screening | Rayyan AI | Screened CSV / RIS | Import to Paperpile |
+| 3. Full-text Access | Paperpile | PDF set | Upload to SciSpace |
+| 4. AI Extraction | SciSpace Copilot | Structured text/tables | Export for synthesis |
+| 5. Network Mapping | VOSviewer | Maps / Networks | Integrate into figures & results |
+
+---
+
+## 🔍 Recommended Reading Order
+
+1. [Scopus-Search-and-Analysis.md](./Scopus-Search-and-Analysis.md)  
+2. [Rayyan-AI.md](./Rayyan-AI.md)  
+3. [Paperpile-Workflow.md](./Paperpile-Workflow.md)  
+4. [SciSpace-Extraction.md](./SciSpace-Extraction.md)  
+5. [VOSviewer-Bibliometrics.md](./VOSviewer-Bibliometrics.md)
+
+---
+
+## 🧾 Citation & Acknowledgment
+
+If you use or adapt this workflow in your research, please cite it as:
+
+> Amarasingam, N. (2025). *Systematic Review Toolkit: AI-assisted Literature Screening and Bibliometric Analysis Workflow.* University of Wollongong.  
+> GitHub Repository: [Systematic-Review-Toolkit](https://github.com/narmilan/Systematic-Review-Toolkit)
+
+---
+
+© 2025 Narmilan Amarasingam — University of Wollongong | Licensed under MIT
