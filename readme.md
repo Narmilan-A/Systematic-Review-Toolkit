@@ -1,7 +1,7 @@
 # 🧩 Systematic Review Methodology Using AI & Bibliometric Tools
 
 This repository provides a **reproducible, AI-assisted workflow** for conducting systematic reviews and bibliometric analyses.  
-It integrates automated literature screening, full-text analysis, and visualization across five complementary tools.
+It integrates automated literature screening, full-text analysis, and visualisation across five complementary tools.
 
 ---
 
@@ -11,9 +11,9 @@ It integrates automated literature screening, full-text analysis, and visualizat
 |------|-----------|--------------|
 | 🔍 **Scopus Search & Analysis** | Query literature databases, export (CSV/RIS/BibTeX), and generate local analytics | Yearly trends, top authors, affiliations, countries, and keywords |
 | 🧠 **Rayyan AI** | AI-assisted title and abstract screening with duplicate removal and conflict resolution | Cleaned and screened reference set (CSV, Excel, RIS) |
-| 📄 **Paperpile** | Reference and PDF management via university access and Google Drive integration | Organized full-text PDF library |
+| 📄 **Paperpile** | Reference and PDF management via university access and Google Drive integration | Organised full-text PDF library |
 | 🤖 **SciSpace Copilot** | AI-driven PDF interrogation for extracting key methods, results, and study metadata | Structured tables and text summaries |
-| 📊 **VOSviewer** | Bibliometric mapping of keywords, citations, and co-authorship networks | Topic maps, collaboration clusters, and overlay visualizations |
+| 📊 **VOSviewer** | Bibliometric mapping of keywords, citations, and co-authorship networks | Topic maps, collaboration clusters, and overlay visualisations |
 
 ---
 
@@ -26,16 +26,16 @@ graph TD
     A[Scopus Search] --> B[Rayyan Screening]
     B --> C[Paperpile PDF Management]
     C --> D[SciSpace AI Extraction]
-    D --> E[VOSviewer Mapping & Network Visualization]
+    D --> E[VOSviewer Mapping & Network Visualisation]
 ```
 
 Each tool contributes a unique stage in the systematic review process:
 
 1. **Scopus Search & Analysis** — Initial data gathering and descriptive analytics.  
 2. **Rayyan AI** — Title/abstract screening and inclusion filtering.  
-3. **Paperpile** — Centralized PDF management for full-text access.  
+3. **Paperpile** — Centralised PDF management for full-text access.  
 4. **SciSpace Copilot** — Full-text understanding and result extraction.  
-5. **VOSviewer** — Advanced bibliometric visualization and research landscape mapping.
+5. **VOSviewer** — Advanced bibliometric visualisation and research landscape mapping.
 
 ---
 
@@ -49,7 +49,7 @@ Systematic-Review-Toolkit/
 │   ├── vosviewer/             # Network and map exports from VOSviewer
 │   └── thesaurus/             # Custom thesaurus and stoplists for term cleaning
 ├── tools/
-│   └── scopus_summary_analysis.py  # Python script for Scopus data summarization
+│   └── scopus_summary_analysis.py  # Python script for Scopus data summarisation
 ├── Scopus-Search-and-Analysis.md
 ├── Rayyan-AI.md
 ├── Paperpile-Workflow.md
@@ -78,7 +78,7 @@ Load screened references into **Paperpile**, link with institutional access, and
 Upload full-text PDFs to **SciSpace Copilot** to ask AI-driven questions and extract tables of methodologies, results, or findings.  
 👉 [Guide → SciSpace-Extraction.md](./Step4-SciSpace-Extraction.md)
 
-### Step 5. Visualize Bibliometric Networks
+### Step 5. Visualise Bibliometric Networks
 Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from Scopus/WoS exports or screened datasets.  
 👉 [Guide → VOSviewer-Bibliometrics.md](./Step5-VOSviewer-Bibliometrics.md)
 
@@ -120,7 +120,7 @@ Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from 
 If you use or adapt this workflow in your research, please cite it as:
 
 > Amarasingam, N. (2025). *Systematic Review Toolkit: AI-assisted Literature Screening and Bibliometric Analysis Workflow.* University of Wollongong.  
-> GitHub Repository: [Systematic-Review-Toolkit](https://github.com/narmilan/Systematic-Review-Toolkit)
+> GitHub Repository: [Systematic-Review-Toolkit](https://github.com/Narmilan-A/Systematic-Review-Toolkit)
 
 ---
 
