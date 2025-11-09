@@ -1,6 +1,6 @@
-# Systematic Review Methodology using AI Tools
+# Systematic Review Methodology
 
-This repository documents a reproducible, AI-assisted systematic review workflow using the following tools:
+This repository documents a reproducible, AI/non-AI-assisted systematic review workflow using the following tools:
 
 - 🧠 **Rayyan AI**: For duplicate removal, filtering, random sampling, and abstract/title screening
 - 📄 **Paperpile** (or similar): For downloading and organizing full-text PDFs via university access, integrations, and online sources
