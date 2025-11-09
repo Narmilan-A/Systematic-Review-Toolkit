@@ -2,6 +2,8 @@
 
 This page shows how to **search Scopus by keywords**, **export results** (CSV, RIS, BibTeX), and **summarise/visualise** the corpus. It complements the Rayyan/Paperpile/SciSpace workflow and provides a reproducible summary similar to **Scopus “Analyze search results”.**
 
+**Scopus** ([https://www.scopus.com/pages/home](https://www.scopus.com/pages/home?display=basic&zone=header&origin=#basic))  
+
 ---
 
 ## 1) Build a robust Scopus query
