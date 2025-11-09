@@ -148,4 +148,5 @@ Copy these templates into `data/thesaurus/` and customise for your topic.
 ---
 
 ### 📎 References
-- VOSviewer Manual & Examples: https://www.vosviewer.com/
+- VOSviewer Manual & Examples: https://www.vosviewer.com/documentation
+- Documentation on thesaurus & counting methods: https://www.vosviewer.com/support
