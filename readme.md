@@ -47,3 +47,12 @@ systematic-review-methodology-ai/
     ├── exclusion_criteria.txt
     └── prisma_diagram.png
 ```
+---
+
+## New Module: VOSviewer Bibliometrics
+
+We added a fourth tool — **VOSviewer** — to generate topic maps and collaboration networks from your screened corpus. Start here: **[VOSviewer-Bibliometrics.md](./VOSviewer-Bibliometrics.md)** and copy the thesaurus/stoplist templates from the repository root:
+- `templates_vosviewer_thesaurus.txt`
+- `templates_vosviewer_stoplist.csv`
+
+Recommended folder for outputs: `data/vosviewer/` (see suggested structure in the VOSviewer guide).
