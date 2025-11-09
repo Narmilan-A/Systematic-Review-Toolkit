@@ -54,7 +54,7 @@ Systematic-Review-Toolkit/
 
 ### Step 1 – Scopus Search & Analysis  
 Perform structured Boolean searches, export records, and summarise trends.  
-👉 [Step1-Scopus-Search-and-Analysis.md](./Step1-Scopus-Search-and-Analysis.md)
+👉 [Step1-Scopus-Search-and-Analysis.md](Step1-Scopus-Search-and-Analysis.md)
 
 ### Step 2 – Rayyan AI Screening  
 Import exported records into Rayyan for AI-assisted inclusion/exclusion and conflict resolution.  
