@@ -43,11 +43,11 @@ Each tool contributes a unique stage in the systematic review process:
 
 ```plaintext
 Systematic-Review-Toolkit/
-├── Scopus-Search-and-Analysis.md
-├── Rayyan-AI.md
-├── Paperpile-Workflow.md
-├── SciSpace-Extraction.md
-├── VOSviewer-Bibliometrics.md
+├── Step1 - Scopus-Search-and-Analysis.md
+├── Step2 - Rayyan-AI.md
+├── Step3 - Paperpile-Workflow.md
+├── Step4 - SciSpace-Extraction.md
+├── Step5 - VOSviewer-Bibliometrics.md
 └── readme.md
 ```
 
