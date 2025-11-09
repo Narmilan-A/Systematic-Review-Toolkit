@@ -1,6 +1,6 @@
 # 🧠 Rayyan AI for Screening Articles
 
-Rayyan is a free/subscription, AI-enhanced web platform specifically designed to streamline the **screening phase** of systematic reviews. Whether you're working solo or as part of a team, Rayyan saves time and improves transparency and reproducibility.
+Rayyan is an AI-enhanced web platform specifically designed to streamline the **screening phase** of systematic reviews. Whether you're working solo or as part of a team, Rayyan saves time and improves transparency and reproducibility.
 
 ---
 
