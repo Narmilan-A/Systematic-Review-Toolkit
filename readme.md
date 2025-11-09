@@ -29,14 +29,6 @@ graph TD
     D --> E[VOSviewer Mapping & Network Visualisation]
 ```
 
-Each tool contributes a unique stage in the systematic review process:
-
-1. **Scopus Search & Analysis** — Initial data gathering and descriptive analytics.  
-2. **Rayyan AI** — Title/abstract screening and inclusion filtering.  
-3. **Paperpile** — Centralised PDF management for full-text access.  
-4. **SciSpace Copilot** — Full-text understanding and result extraction.  
-5. **VOSviewer** — Advanced bibliometric visualisation and research landscape mapping.
-
 ---
 
 ### 📂 Repository Structure
@@ -95,15 +87,6 @@ Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from 
 | 4. AI Extraction | SciSpace Copilot | Structured text/tables | Export for synthesis |
 | 5. Network Mapping | VOSviewer | Maps / Networks | Integrate into figures & results |
 
----
-
-### 🔍 Recommended Reading Order
-
-1. [Scopus-Search-and-Analysis.md](./Step1-Scopus-Search-and-Analysis.md)  
-2. [Rayyan-AI.md](./Step2-Rayyan-AI.md)  
-3. [Paperpile-Workflow.md](./Step3-Paperpile-Workflow.md)  
-4. [SciSpace-Extraction.md](./Step4-SciSpace-Extraction.md)  
-5. [VOSviewer-Bibliometrics.md](./Step5-VOSviewer-Bibliometrics.md)
 
 ---
 
