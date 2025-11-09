@@ -1,6 +1,6 @@
 # 📘 SciSpace: Extracting Information from Scientific Articles
 
-**SciSpace** (formerly Typeset.io) is an AI tool that helps you **interact with PDFs** using plain language questions. It's designed to **speed up the evidence extraction** process in literature reviews and systematic syntheses.
+**SciSpace** is an AI tool that helps you **interact with PDFs** using plain language questions. It's designed to **speed up the evidence extraction** process in literature reviews and systematic syntheses.
 
 ---
 
