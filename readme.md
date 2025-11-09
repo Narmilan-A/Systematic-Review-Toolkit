@@ -1,11 +1,11 @@
-# 🧩 Systematic Review Methodology Using AI & Bibliometric Tools
+## 🧩 Systematic Review Methodology Using AI & Bibliometric Tools
 
 This repository provides a **reproducible, AI-assisted workflow** for conducting systematic reviews and bibliometric analyses.  
 It integrates automated literature screening, full-text analysis, and visualisation across five complementary tools.
 
 ---
 
-## 🧠 Overview of Tools
+### 🧠 Overview of Tools
 
 | Tool | Function | Key Outputs |
 |------|-----------|--------------|
@@ -17,7 +17,7 @@ It integrates automated literature screening, full-text analysis, and visualisat
 
 ---
 
-## ⚙️ Workflow Overview
+### ⚙️ Workflow Overview
 
 This workflow ensures transparency and reproducibility from literature search to network analysis:
 
@@ -39,17 +39,9 @@ Each tool contributes a unique stage in the systematic review process:
 
 ---
 
-## 📂 Repository Structure
+### 📂 Repository Structure
 
 ```plaintext
-Systematic-Review-Toolkit/
-├── data/
-│   ├── exports/               # Raw Scopus/WoS exports (CSV, RIS, BibTeX)
-│   ├── scopus_analysis/       # Summaries and charts from scopus_summary_analysis.py
-│   ├── vosviewer/             # Network and map exports from VOSviewer
-│   └── thesaurus/             # Custom thesaurus and stoplists for term cleaning
-├── tools/
-│   └── scopus_summary_analysis.py  # Python script for Scopus data summarisation
 ├── Scopus-Search-and-Analysis.md
 ├── Rayyan-AI.md
 ├── Paperpile-Workflow.md
@@ -60,31 +52,31 @@ Systematic-Review-Toolkit/
 
 ---
 
-## 🚀 How to Get Started
+### 🚀 How to Get Started
 
-### Step 1. Conduct a Literature Search
+#### Step 1. Conduct a Literature Search
 Use **Scopus Search & Analysis** to perform structured Boolean queries, export references, and generate descriptive statistics.  
 👉 [Guide → Scopus-Search-and-Analysis.md](./Step1-Scopus-Search-and-Analysis.md)
 
-### Step 2. Screen Titles & Abstracts
+#### Step 2. Screen Titles & Abstracts
 Import exported records into **Rayyan AI** to remove duplicates, tag inclusion/exclusion criteria, and resolve reviewer conflicts.  
 👉 [Guide → Rayyan-AI.md](./Step2-Rayyan-AI.md)
 
-### Step 3. Manage Full-Text PDFs
+#### Step 3. Manage Full-Text PDFs
 Load screened references into **Paperpile**, link with institutional access, and download full-texts to Google Drive.  
 👉 [Guide → Paperpile-Workflow.md](./Step3-Paperpile-Workflow.md)
 
-### Step 4. Extract Key Insights
+#### Step 4. Extract Key Insights
 Upload full-text PDFs to **SciSpace Copilot** to ask AI-driven questions and extract tables of methodologies, results, or findings.  
 👉 [Guide → SciSpace-Extraction.md](./Step4-SciSpace-Extraction.md)
 
-### Step 5. Visualise Bibliometric Networks
+#### Step 5. Visualise Bibliometric Networks
 Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from Scopus/WoS exports or screened datasets.  
 👉 [Guide → VOSviewer-Bibliometrics.md](./Step5-VOSviewer-Bibliometrics.md)
 
 ---
 
-## 📘 Example Applications
+### 📘 Example Applications
 
 - Meta-analysis of research trends in **polar remote sensing** or **precision agriculture**.  
 - Identification of **emerging keywords** and **collaborative clusters**.  
@@ -93,7 +85,7 @@ Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from 
 
 ---
 
-## 🧩 Integration Pathway
+### 🧩 Integration Pathway
 
 | Phase | Tool | Output Type | Next Step |
 |-------|------|--------------|------------|
@@ -105,7 +97,7 @@ Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from 
 
 ---
 
-## 🔍 Recommended Reading Order
+### 🔍 Recommended Reading Order
 
 1. [Scopus-Search-and-Analysis.md](./Step1-Scopus-Search-and-Analysis.md)  
 2. [Rayyan-AI.md](./Step2-Rayyan-AI.md)  
@@ -115,7 +107,7 @@ Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from 
 
 ---
 
-## 🧾 Citation & Acknowledgment
+### 🧾 Citation & Acknowledgment
 
 If you use or adapt this workflow in your research, please cite it as:
 
@@ -124,4 +116,4 @@ If you use or adapt this workflow in your research, please cite it as:
 
 ---
 
-© 2025 Narmilan Amarasingam — University of Wollongong | Licensed under MIT
+© 2025 Narmilan Amarasingam — University of Wollongong |
