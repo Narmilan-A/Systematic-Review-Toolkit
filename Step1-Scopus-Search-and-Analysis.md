@@ -72,12 +72,7 @@ Systematic-Review-Toolkit/
 
 ---
 
-## 6) Suggested Reporting (Methods snippet)
-> “We queried Scopus on DATE using the following Boolean string: [QUERY]. We exported results in CSV/RIS/BibTeX with full fields (Authors, Year, Source, Keywords, Abstracts, Affiliations, DOIs, Citations). We reproduced Scopus’ ‘Analyze search results’ locally using a Python script (pandas/matplotlib) to summarise documents by year, source, authors, affiliations, countries, and keywords. Scripts and outputs are archived under `data/scopus_analysis/` to ensure reproducibility.”
-
----
-
-## 7) Next steps
+## 6) Next steps
 - Feed the CSV into **Rayyan** for screening.
 - Import RIS/Bib files into **Paperpile** for PDF acquisition.
 - Use **SciSpace** for QA/keyword extraction & full‑text review.
