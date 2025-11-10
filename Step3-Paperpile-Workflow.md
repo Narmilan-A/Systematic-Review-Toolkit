@@ -1,4 +1,4 @@
-# 📄 Step 3 – Paperpile PDF Management and Organization
+# 📄 Step 3 – Paperpile PDF Management and Organisation
 
 **Paperpile** ([https://paperpile.com](https://paperpile.com)) is a cloud-based reference manager that simplifies **PDF organization**, **reference syncing**, and **collaborative access** through Google Drive integration.  
 In this step, you will import screened references (from Rayyan), download full-text PDFs, and prepare them for subsequent analysis with **SciSpace Copilot**.
@@ -6,7 +6,7 @@ In this step, you will import screened references (from Rayyan), download full-t
 ---
 
 ## 🎯 Objectives
-- Centralize all references and PDFs in a single, searchable workspace.  
+- Centralise all references and PDFs in a single, searchable workspace.  
 - Ensure seamless integration between **Rayyan**, **Paperpile**, **Google Drive**, and **SciSpace**.  
 - Maintain consistent file naming, metadata, and version control.
 
@@ -26,7 +26,7 @@ In this step, you will import screened references (from Rayyan), download full-t
 - Enable automatic syncing in **Settings → Storage → Google Drive**.  
 - Paperpile will create a dedicated folder:  
   `My Drive/Paperpile/`  
-- PDFs are automatically organized by **year**, **topic**, or **collection**.  
+- PDFs are automatically organised by **year**, **topic**, or **collection**.  
 - You can also share folders with collaborators for co-review or annotation.
 
 > 🔒 *Note:* Ensure your Google Drive has adequate storage space, especially for large systematic review datasets.
@@ -50,11 +50,11 @@ In this step, you will import screened references (from Rayyan), download full-t
 - For missing files, manually upload PDFs from your local downloads.  
 - Use legal open-access alternatives like **Unpaywall** (built-in) to locate free versions.
 
-> ⚠️ *Avoid unauthorized sources (e.g., Library Genesis) unless explicitly permitted by institutional policy.*
+> ⚠️ *Avoid unauthorised sources (e.g., Library Genesis) unless explicitly permitted by institutional policy.*
 
 ---
 
-## 📦 Step 5 – Export and Organize PDFs for Analysis
+## 📦 Step 5 – Export and Organise PDFs for Analysis
 - Use **Google Drive Sync** or **Bulk Export** to create a local backup.  
 - Rename files consistently (e.g., `Author_Year_Title.pdf`).  
 - Store the exported PDFs in:  
@@ -69,7 +69,7 @@ In this step, you will import screened references (from Rayyan), download full-t
 | Task | Output | Folder |
 |------|---------|---------|
 | Import references | Paperpile library with metadata | – |
-| PDF synchronization | Google Drive auto-sync folder | `My Drive/Paperpile/` |
+| PDF synchronisation | Google Drive auto-sync folder | `My Drive/Paperpile/` |
 | Proxy access | Institutional login | – |
 | Full-text retrieval | Complete set of PDFs | `data/paperpile_pdfs/` |
 | Prepared dataset | Ready for SciSpace upload | `data/paperpile_pdfs/` |
