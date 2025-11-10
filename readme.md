@@ -26,7 +26,7 @@ graph TD
     A[Scopus Search] --> B[Rayyan Screening]
     B --> C[Paperpile PDF Management]
     C --> D[SciSpace AI Extraction]
-    D --> E[VOSviewer Mapping & Network Visualisation]
+    D --> E[VOSviewer Network Visualisation]
 ```
 
 ---
