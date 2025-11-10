@@ -49,7 +49,7 @@ Export your final/filtered reference set from **Scopus** or **Web of Science** (
 
 **Outputs to save**:
 - `map.txt` and `network.txt` (File ▸ Export ▸ Maps/Network)
-- PNG/SVG of the visualisation (File ▸ Export ▸ Visualization) for figures.
+- PNG/SVG of the visualisation (File ▸ Export ▸ Visualisation) for figures.
 - `items.txt` for term list (useful for appendices).
 
 ---
