@@ -50,7 +50,7 @@ Use natural language to ask:
 - “What is the sample size?”
 - “What methodology did the authors use?”
 - “What are the main findings?”
-- “Was this study randomized?”
+- “Was this study randomised?”
 - “What population was studied?”
 
 The AI will:
