@@ -1,6 +1,7 @@
 # 🔎 Scopus Search, Export & Summary Analysis (CSV / RIS / BibTeX)
 
 This page shows how to **search Scopus by keywords**, **export results** (CSV, RIS, BibTeX), and **summarise/visualise** the corpus. It complements the Rayyan/Paperpile/SciSpace workflow and provides a reproducible summary similar to **Scopus “Analyze search results”.**
+<img width="1870" height="890" alt="image" src="https://github.com/user-attachments/assets/782e8a77-f415-4db4-8287-1dc7694b72f6" />
 
 **Scopus** ([https://www.scopus.com/pages/home](https://www.scopus.com/pages/home?display=basic&zone=header&origin=#basic))  
 
