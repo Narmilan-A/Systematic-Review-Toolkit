@@ -2,6 +2,7 @@
 
 **Paperpile** ([https://paperpile.com](https://paperpile.com)) is a cloud-based reference manager that simplifies **PDF organization**, **reference syncing**, and **collaborative access** through Google Drive integration.  
 In this step, you will import screened references (from Rayyan), download full-text PDFs, and prepare them for subsequent analysis with **SciSpace Copilot**.
+<img width="979" height="620" alt="image" src="https://github.com/user-attachments/assets/08885756-d37d-4b4e-a699-6a61246d78cf" />
 
 ---
 
