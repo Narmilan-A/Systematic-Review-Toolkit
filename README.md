@@ -48,7 +48,7 @@ graph TD
 
 #### Step 1. Conduct a Literature Search
 Use **Scopus Search & Analysis** to perform structured Boolean queries, export references, and generate descriptive statistics.  
-👉 [Guide → Scopus-Search-and-Analysis.md](./Step1-Scopus-Search-and-Analysis.md)
+👉 [Guide → Scopus-Search.md](./Step1-Scopus-Search.md)
 
 #### Step 2. Screen Titles & Abstracts
 Import exported records into **Rayyan AI** to remove duplicates, tag inclusion/exclusion criteria, and resolve reviewer conflicts.  
@@ -56,15 +56,15 @@ Import exported records into **Rayyan AI** to remove duplicates, tag inclusion/e
 
 #### Step 3. Manage Full-Text PDFs
 Load screened references into **Paperpile**, link with institutional access, and download full-texts to Google Drive.  
-👉 [Guide → Paperpile-Workflow.md](./Step3-Paperpile-Workflow.md)
+👉 [Guide → Paperpile.md](./Step3-Paperpile.md)
 
 #### Step 4. Extract Key Insights
 Upload full-text PDFs to **SciSpace Copilot** to ask AI-driven questions and extract tables of methodologies, results, or findings.  
-👉 [Guide → SciSpace-Extraction.md](./Step4-SciSpace-Extraction.md)
+👉 [Guide → SciSpace.md](./Step4-SciSpace.md)
 
 #### Step 5. Visualise Bibliometric Networks
 Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from Scopus/WoS exports or screened datasets.  
-👉 [Guide → VOSviewer-Bibliometrics.md](./Step5-VOSviewer-Bibliometrics.md)
+👉 [Guide → VOSviewer.md](./Step5-VOSviewer.md)
 
 ---
 
