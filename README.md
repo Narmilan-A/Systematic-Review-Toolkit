@@ -2,9 +2,6 @@
 
 This repository provides a **reproducible, AI-assisted workflow** for conducting systematic reviews and bibliometric analyses.  
 It integrates automated literature screening, full-text analysis, and visualisation across five complementary tools.
-<img width="5309" height="3055" alt="keywords_top88" src="https://github.com/user-attachments/assets/8567c4d6-ae6d-4ab0-9ed5-010ac3368b00" />
-
-
 
 ---
 
