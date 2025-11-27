@@ -2,7 +2,7 @@
 
 VOSviewer is a free desktop tool for building and visualising bibliometric networks from Scopus or Web of Science (WoS) exports. This guide shows how to add **VOSviewer** as the fourth tool in your AI‑assisted systematic‑review workflow, alongside **Rayyan AI**, **Paperpile**, and **SciSpace**.
 
-<img width="3523" height="3157" alt="author_network_all" src="https://github.com/user-attachments/assets/d6456459-a80b-4e64-83c9-5dd22d94a062" />
+<img width="1917" height="1007" alt="Screenshot 2025-10-03 231932" src="https://github.com/user-attachments/assets/5f15b083-1eeb-458b-800d-3d28f8a47619" />
 
 
 > ✅ Typical uses: co‑authorship networks, keyword co‑occurrence maps, citation/co‑citation networks, and bibliographic coupling — to reveal hot topics, key authors, and collaboration clusters.
