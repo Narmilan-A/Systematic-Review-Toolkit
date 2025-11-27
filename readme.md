@@ -99,6 +99,4 @@ If you use or adapt this workflow in your research, please cite it as:
 
 **Acknowledgements** : This work was supported by an Australian Research Council Australian Laureate Fellowship (FL240100032), SRIEAS SR200100005 and Securing Antarctica’s Environmental Future grants and contributes to delivering the Australian Antarctic Science Decadal Strategy.
 
----
-
 © 2025 Narmilan Amarasingam — University of Wollongong
