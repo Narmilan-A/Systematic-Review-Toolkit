@@ -1,6 +1,7 @@
 # 📘 SciSpace: Extracting Information from Scientific Articles
 
 **SciSpace** is an AI tool that helps you **interact with PDFs** using plain language questions. It's designed to **speed up the evidence extraction** process in literature reviews and systematic syntheses.
+<img width="1884" height="889" alt="image" src="https://github.com/user-attachments/assets/e90a95db-25c4-422b-ab50-5360c9c5d983" />
 
 ---
 
