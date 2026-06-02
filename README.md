@@ -1,11 +1,11 @@
-## 🧩 Systematic Review Methodology Using AI & Bibliometric Tools
+##  Systematic Review Methodology Using AI & Bibliometric Tools
 
 This repository provides a **reproducible, AI-assisted workflow** for conducting systematic reviews and bibliometric analyses.  
 It integrates automated literature screening, full-text analysis, and visualisation across five complementary tools.
 
 ---
 
-### 🧠 Overview of Tools
+###  Overview of Tools
 
 | Tool | Function | Key Outputs |
 |------|-----------|--------------|
@@ -17,7 +17,7 @@ It integrates automated literature screening, full-text analysis, and visualisat
 
 ---
 
-### ⚙️ Workflow Overview
+###  Workflow Overview
 
 This workflow ensures transparency and reproducibility from literature search to network analysis:
 
@@ -31,7 +31,7 @@ graph TD
 
 ---
 
-### 📂 Repository Structure
+###  Repository Structure
 
 ```plaintext
 ├── Scopus-Search-and-Analysis.md
@@ -44,7 +44,7 @@ graph TD
 
 ---
 
-### 🚀 How to Get Started
+###  How to Get Started
 
 #### Step 1. Conduct a Literature Search
 Use **Scopus Search & Analysis** to perform structured Boolean queries, export references, and generate descriptive statistics.  
@@ -77,7 +77,7 @@ Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from 
 
 ---
 
-### 🧩 Integration Pathway
+###  Integration Pathway
 
 | Phase | Tool | Output Type | Next Step |
 |-------|------|--------------|------------|
@@ -90,7 +90,7 @@ Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from 
 
 ---
 
-### 🧾 Citation & Acknowledgment
+###  Citation & Acknowledgment
 
 If you use or adapt this workflow in your research, please cite it as:
 
