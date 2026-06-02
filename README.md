@@ -68,7 +68,7 @@ Use **VOSviewer** to build co-authorship, co-occurrence, and citation maps from 
 
 ---
 
-### 📘 Example Applications
+### Example Applications
 
 - Meta-analysis of research trends in **polar remote sensing** or **precision agriculture**.  
 - Identification of **emerging keywords** and **collaborative clusters**.  
